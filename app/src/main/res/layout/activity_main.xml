@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="270dp"
         android:layout_marginTop="80dp"
-        android:src="@drawable/finding" />
+        android:src="@drawable/logoo" />
 
 
     <LinearLayout
