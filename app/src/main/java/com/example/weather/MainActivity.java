@@ -93,20 +93,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-
-
-    private void getWeatherForNewCity(String city)
-    {
-        RequestParams params=new RequestParams();
-        params.put("q",city);
-        params.put("appid",APP_ID);
-        letsdoSomeNetworking(params);
-
-    }
-
-
-
-
     private void getWeatherForCurrentLocation() {
 
         mLocationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
